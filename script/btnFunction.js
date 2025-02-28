@@ -1,3 +1,17 @@
+document.getElementById("Box-2").addEventListener('click',function(){
+    window.location.href="./insideMain.html"
+})
+
+document.getElementById("back-btn").addEventListener('click',function(){
+    window.location.href="./index.html"
+})
+
+
+
+
+
+
+
 document.getElementById("Completed-btn").addEventListener('click', function(event){
 event.preventDefault();
 
